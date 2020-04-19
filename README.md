@@ -8,7 +8,7 @@ Google booksのAPIを使って書籍情報を取得してBibTeXの形式にし�
 
 ## 使い方と出力
 jupyter notebook等で実行し、ISBN、BibTeXで参照するときの名前（`\cite{ }`に入る名前）、本の出版社
-を入力します。
+を入力します（Google booksのAPIでは出版社を取得できないので手動で入力 (^^;)）。
 
 - 書籍情報がヒットすれば、BibTeX形式でprintされます。
 - ヒット件数が0だとerrorと表示されます。
